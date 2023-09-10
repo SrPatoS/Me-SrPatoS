@@ -1,0 +1,18 @@
+/* styles.module.css ou estilos globais do Next.js */
+
+.custom-cursor {
+    position: fixed;
+    background-color: #66ff00;
+    /* Cor da bolinha (você pode alterar) */
+    border-radius: 50%;
+    /* Formato de bolinha */
+    pointer-events: none;
+    /* Evitar que o cursor interfira com cliques */
+    mix-blend-mode: difference;
+    /* Melhorar a visibilidade do cursor */
+    z-index: 9999;
+    /* Coloque o cursor acima de outros elementos */
+    transform: translate(-50%, -50%);
+    transition: width 0.2s, height 0.2s;
+    /* Adicionar transição de tamanho */
+}
