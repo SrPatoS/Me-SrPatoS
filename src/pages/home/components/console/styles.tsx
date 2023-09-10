@@ -1,6 +1,6 @@
 import { StyleSheet } from "@/base/styles/style-sheet";
 
-export const styles = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         height: 100,
         width: 400,
@@ -14,3 +14,5 @@ export const styles = StyleSheet.create({
         margin: 5
     }
 });
+
+export default styles;

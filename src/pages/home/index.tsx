@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { styles } from "./styles";
+import styles from "./styles";
 import Container from "./components/container";
 import Console from "./components/console";
 import { data } from "@/data/data";

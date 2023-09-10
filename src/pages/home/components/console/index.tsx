@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import { styles } from "./styles";
+import styles from "./styles";
 
 interface Props {
     text: string;

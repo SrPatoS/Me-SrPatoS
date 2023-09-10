@@ -1,4 +1,4 @@
-import { styles } from "./styles";
+import styles from "./styles";
 import Button from "../button";
 import { data } from "@/data/data";
 

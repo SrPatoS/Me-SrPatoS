@@ -1,7 +1,7 @@
 import { StyleSheet } from "@/base/styles/style-sheet";
 import { Theme } from "@/base/theme/app-theme";
 
-export const styles = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         height: 500,
         width: 500,
@@ -24,3 +24,5 @@ export const styles = StyleSheet.create({
         width: "100%"
     }
 });
+
+export default styles;

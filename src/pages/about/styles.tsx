@@ -1,7 +1,7 @@
 import { StyleSheet } from "@/base/styles/style-sheet";
 import { Theme } from "@/base/theme/app-theme";
 
-export const styles = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         background: Theme.colors.background,
         display: "flex",
@@ -11,3 +11,5 @@ export const styles = StyleSheet.create({
         justifyContent: "center"
     }
 });
+
+export default styles;
