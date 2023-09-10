@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { styles } from "./styles";
-import { Container } from "./components/container";
-import { Console } from "./components/console";
+import Container from "./components/container";
+import Console from "./components/console";
 import { data } from "@/data/data";
 import CustomCursor from '@/components/cursor'
 
@@ -20,7 +20,7 @@ const Home = () => {
                 subTitle={data.description}
             />
             <Console text={consoleText}></Console>
-            <CustomCursor/>
+            <CustomCursor />
         </div>
     );
 };

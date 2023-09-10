@@ -1,5 +1,5 @@
 import { styles } from "./styles";
-import { Button } from "../button";
+import Button from "../button";
 import { data } from "@/data/data";
 
 interface Props {
@@ -7,7 +7,7 @@ interface Props {
     content: string,
 }
 
-export const Container = (props: Props) => {
+const Container = (props: Props) => {
 
     const onGithub = () => {
         window.open(data.githubPage, "_blank")
@@ -21,3 +21,5 @@ export const Container = (props: Props) => {
         </div>
     );
 }
+
+export default Container;

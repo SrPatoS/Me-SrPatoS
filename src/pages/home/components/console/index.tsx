@@ -6,7 +6,7 @@ interface Props {
     text: string;
 }
 
-export const Console = (props: Props) => {
+const Console = (props: Props) => {
     const [consoleText, setConsoleText] = useState<string>("");
     const [count, setCount] = useState<number>(0);
     const [activeConsoleText, setActiveConsoleText] = useState<boolean>(false);
@@ -46,3 +46,5 @@ export const Console = (props: Props) => {
         </div>
     );
 };
+
+export default Console;

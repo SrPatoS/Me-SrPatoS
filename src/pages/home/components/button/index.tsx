@@ -7,7 +7,7 @@ interface Props {
     onClick: () => void;
 }
 
-export const Button = (props: Props) => {
+const Button = (props: Props) => {
     const [isHovered, setIsHovered] = useState<boolean>(false);
 
     const styles = StyleSheet.create({
@@ -53,3 +53,5 @@ export const Button = (props: Props) => {
         </div>
     );
 }
+
+export default Button;
